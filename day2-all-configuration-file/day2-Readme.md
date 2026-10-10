@@ -158,7 +158,7 @@ ls *plan*
 terraform apply aws-devplan
 ```
 
-Applies the actions recorded in the saved plan.
+Applies the actions recorded in the saved plan. 
 
 Alternatively, use the interactive workflow:
 
