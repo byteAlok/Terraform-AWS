@@ -3,7 +3,7 @@
 
 dev_vpc_cidr   = "10.0.0.0/16"
 dev_vpc_region = "us-west-2"
-dev_vpc_name   = "alok_vpc"
+dev_vpc_name   = "dev_vpc"
 
 # ------------------------ Subnet Configuration ------------------------
 
