@@ -8,7 +8,7 @@
 
 ## 📌 What Is a Terraform Statefile?
 
-The `terraform.tfstate` file stores information about infrastructure resources managed by Terraform, including resource identities and tracked attributes.
+The `.tfstate` file stores information about infrastructure resources managed by Terraform, including resource identities and tracked attributes.
 
 Terraform uses three sources to determine the required infrastructure changes:
 
