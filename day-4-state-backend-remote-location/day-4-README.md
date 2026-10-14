@@ -151,16 +151,20 @@ Terraform has deprecated DynamoDB-based locking in favor of S3-native lock files
 Terraform configuration files remain in GitHub so the team can review, share, and version-control infrastructure code.
 
 ```mermaid
-flowchart LR
-    A["👨‍💻 Developer A"] --> B["📤 Git Push"]
-    B --> C["🐙 GitHub Repository"]
-    C --> D["📥 Git Pull"]
-    D --> E["👨‍💻 Developer B"]
-    E --> F["⚙️ Terraform Apply"]
-    F --> G["☁️ Shared S3 State"]
+flowchart TD
+    A["👨‍💻 Developer A"] <--> B["🐙 GitHub Repository"]
+    B <--> C["👨‍💻 Developer B"]
 
-    style C fill:#24292e,color:#fff
-    style G fill:#155e3b,color:#fff
+    A --> D["⚙️ Terraform Apply"]
+    C --> D
+    D <--> E["☁️ Shared S3 State"]
+
+    A -.- F["📥 Pull + 📤 Push"]
+    C -.- G["📥 Pull + 📤 Push"]
+
+    style B fill:#24292e,color:#ffffff,stroke:#6e7681
+    style D fill:#1d4ed8,color:#ffffff,stroke:#60a5fa
+    style E fill:#155e3b,color:#ffffff,stroke:#34d399
 ```
 
 Use Git to keep local configuration synchronized:
