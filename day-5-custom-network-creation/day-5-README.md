@@ -128,30 +128,8 @@ Using direct values keeps the configuration straightforward for beginners and ma
 For a separate example covering variables, `terraform.tfvars`, input validation, and configuration files, refer to:
 
 🔗 [Terraform AWS — Day 2: All Configuration Files](https://github.com/byteAlok/Terraform-AWS/tree/main/day-2-all-configuration-file)
-🔗 [Terraform AWS — Day 4: State Backend Remote Location (AWS S3)](https://github.com/byteAlok/Terraform-AWS/tree/main/day-4-state-backend-remote-location)
 
 In real-world projects, reusable variables, environment-specific configuration, and appropriate validation are recommended.
-
-## 📁 Terraform State File — Learning Context
-
-The `.tfstate` file is currently retained in this repository **strictly for the context of this personal learning exercise**.
-
-The purpose is to document and understand Terraform's state management while practising AWS infrastructure provisioning.
-
-This is a controlled, temporary learning environment. The associated Pluralsight sandbox automatically deletes its resources after approximately four hours, according to the sandbox setup used for this exercise.
-
-That temporary environment is part of the learning workflow, not a recommended state-management strategy for production infrastructure.
-
-### 🔒 Important State File Considerations
-
-Terraform state can contain sensitive information, resource identifiers, and configuration data. Therefore:
-
-- Do not commit production state files to a public GitHub repository.
-- Use a secure remote backend, such as Amazon S3 with appropriate access controls, encryption, and state locking where supported by the chosen configuration.
-- Never commit credentials, access keys, private keys, or other secrets.
-- For team environments, establish proper state access, locking, recovery, and versioning practices.
-
-**Scope clarification:** Keeping the state file here is a deliberate learning-context choice, not a recommendation for professional or production deployments.
 
 ## ⚙️ Terraform Workflow
 
