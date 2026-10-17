@@ -109,9 +109,11 @@ resource "aws_db_instance" "db-primary" {
 
   #   managed_master_user_password = true  #enable password management by AWS Secrets Manager
 
-  db_subnet_group_name = aws_db_subnet_group.db-subnet-group.name
+  db_subnet_group_name   = aws_db_subnet_group.db-subnet-group.name
+  vpc_security_group_ids = [aws_security_group.sg.id]
 
-#   publicly_accessible = true
+
+  publicly_accessible = true
 
   skip_final_snapshot = true # --> if false then use -> final_snapshot_identifier 
   #   final_snapshot_identifier = "my-db-final-snapshot"
@@ -127,7 +129,7 @@ resource "aws_db_instance" "db-replica" {
   replicate_source_db = aws_db_instance.db-primary.identifier
   instance_class      = "db.t3.micro"
 
-  publicly_accessible    = false
+  publicly_accessible    = true
   skip_final_snapshot    = true
   vpc_security_group_ids = [aws_security_group.sg.id]
 
