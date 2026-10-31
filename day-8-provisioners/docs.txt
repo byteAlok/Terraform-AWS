@@ -1,0 +1,3 @@
+Hello
+📍This is local file <docs.txt> which I'm copy to remote server.
+Bye.......
