@@ -418,3 +418,15 @@ Thanks for checking out my project. ❤️
 ⭐ If you're also learning Terraform, feel free to explore the code and practice along with me!
 
 **#Terraform #AWS #DevOps #InfrastructureAsCode #LearningInPublic**
+
+---
+
+## 👨‍💻 Author
+
+**Alok Maurya**
+
+Cloud & DevOps Learner 🚀
+
+---
+
+⭐ If you found this project helpful, consider giving the repository a star!

@@ -1,4 +1,4 @@
-# Terraform Statefile (.tfstate)
+# 🚀 Day 3 – Terraform Statefile (.tfstate)
 
 <p align="center">
   <img src="https://img.shields.io/badge/Terraform-IaC-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform"/>
@@ -190,3 +190,15 @@ Example `.gitignore`:
 <p align="center">
   <b>🚀 Infrastructure as Code • Terraform • AWS</b>
 </p>
+
+---
+
+## 👨‍💻 Author
+
+**Alok Maurya**
+
+Cloud & DevOps Learner 🚀
+
+---
+
+⭐ If you found this project helpful, consider giving the repository a star!

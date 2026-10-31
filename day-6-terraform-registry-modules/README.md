@@ -213,10 +213,12 @@ terraform apply -auto-approve
 
 ---
 
-<div align="center">
+## 👨‍💻 Author
 
-### 🌱 Learn • Practise • Troubleshoot • Improve
+**Alok Maurya**
 
-**Day 6 — Terraform Registry Modules** 🚀
+Cloud & DevOps Learner 🚀
 
-</div>
+---
+
+⭐ If you found this project helpful, consider giving the repository a star!

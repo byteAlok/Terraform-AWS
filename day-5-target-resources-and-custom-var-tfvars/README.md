@@ -1,4 +1,4 @@
-# 🚀 Day 5: Terraform Target Resources & Variable Files
+# 🚀 Day 5 - Terraform Target Resources & Variable Files
 
 ## 📁 Project Structure
 
@@ -262,3 +262,15 @@ terraform destroy -var-file="custom_var.tfvars" -target=aws_s3_bucket.my_s3_1 -a
 ---
 
 **✅ Day 5 Completed: Terraform Resources, Variables, Variable Files, Targeting, Apply, and Destroy.**
+
+---
+
+## 👨‍💻 Author
+
+**Alok Maurya**
+
+Cloud & DevOps Learner 🚀
+
+---
+
+⭐ If you found this project helpful, consider giving the repository a star!

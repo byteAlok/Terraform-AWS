@@ -1,4 +1,4 @@
-# 🌐 Custom Network Creation on AWS using Terraform
+# 🌐 Day 5 - Custom Network Creation on AWS using Terraform
 
 > **Hands-on Infrastructure as Code (IaC) | AWS Networking | Terraform**
 

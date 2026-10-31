@@ -1,4 +1,4 @@
-# 🚀 Day 6: Terraform Modules
+# 🚀 Day 6 - Terraform Modules
 
 <p align="center">
   <img src="https://img.shields.io/badge/Terraform-Learning-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform"/>

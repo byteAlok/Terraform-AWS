@@ -1,5 +1,4 @@
-
-# Terraform AWS VPC and Subnet Configuration
+# 🚀 Day 2 – Terraform AWS VPC and Subnet Configuration
 
 A Terraform project to provision an AWS Virtual Private Cloud (VPC) and eight subnets across two Availability Zones using reusable input variables and structured outputs.
 
@@ -232,3 +231,15 @@ terraform destroy
 - Reference resources and combine variable values.
 - Define individual and nested outputs.
 - Use Terraform plan, apply, validate, and destroy workflows.
+
+---
+
+## 👨‍💻 Author
+
+**Alok Maurya**
+
+Cloud & DevOps Learner 🚀
+
+---
+
+⭐ If you found this project helpful, consider giving the repository a star!
